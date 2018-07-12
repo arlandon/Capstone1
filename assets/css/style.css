@@ -1,0 +1,164 @@
+*{
+
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;	
+}
+
+main{
+
+	height: 100vh;
+}
+
+
+
+.navbar{
+	height: 10vh;
+	padding: 0;
+
+}
+
+
+
+#navbarNav{
+
+	height: 100%;
+}
+
+.navback {
+	text-align: center;
+	height: 10vh;
+	width: 100px;
+	line-height: 100px;
+	
+
+
+}
+
+
+#img1{
+
+	background: linear-gradient(rgba(68, 68, 68, 0.5), rgba(68, 68, 68, 0.5) ), url('../images/home.jpg');
+	background-size: cover;
+
+}
+
+
+#img2{
+
+	background: linear-gradient(rgba(68, 68, 68, 0.5), rgba(68, 68, 68, 0.5) ), url('../images/about.jpg');
+	background-size: cover;
+}
+
+
+
+#img3{
+
+	background: linear-gradient(rgba(68, 68, 68, 0.5), rgba(68, 68, 68, 0.5) ), url('../images/work.jpg');
+	background-size: cover;
+}
+
+
+#img4{
+
+	background: linear-gradient(rgba(68, 68, 68, 0.5), rgba(68, 68, 68, 0.5) ), url('../images/services.jpg');
+	background-size: cover;
+}
+
+#img5{
+	background: linear-gradient(rgba(68, 68, 68, 0.5), rgba(68, 68, 68, 0.5) ), url('../images/contact.jpg');
+
+	background-size: cover;
+}
+
+.nav-item {
+
+	text-align: left;
+	color: white;
+}
+
+.contp{
+
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.contp > i {
+
+	color: #F97920;
+	font-size: 1em;
+	margin-right: 2px
+}
+#contdiv{
+
+	padding-top: 40px;
+}
+
+i{
+
+	font-size: 2em;
+	color: rgba(171, 175, 181,0.9)
+}
+
+
+
+/*main*/
+
+.bg {
+
+	height: 90vh;
+	width: 100%;
+	background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url('../images/bg.jpg');
+	background-size: cover;
+	margin-bottom: 0px;
+
+}
+
+.services1{
+
+	height: 70vh;
+	background-color: #333;
+}
+
+
+.media > i{
+
+	font-size: 7em;
+	color: #b46e3c;
+	margin: 10px 5px;
+}
+.media {
+	color: #B9B6B6;
+}
+
+ h5 {
+
+	color: white;
+}
+
+
+.servicebox{
+
+	height: 160px;
+	width : 31.3%;
+	margin: 30px 1%;
+	/*border: 1px solid black;*/
+	float: left;
+}
+
+
+.fa-print:hover {
+    color: red;
+}
+
+
+
+.vertical-center {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+
+  display: flex;
+  align-items: center;
+}
+
+
+
