@@ -21,7 +21,7 @@ main{
 
 
 #navbarNav{
-
+	margin-right: 15px; 	 	
 	height: 100%;
 }
 
@@ -36,7 +36,7 @@ main{
 }
 
 
-#img1{
+/*#img1{
 
 	background: linear-gradient(rgba(68, 68, 68, 0.5), rgba(68, 68, 68, 0.5) ), url('../images/home.jpg');
 	background-size: cover;
@@ -69,7 +69,7 @@ main{
 	background: linear-gradient(rgba(68, 68, 68, 0.5), rgba(68, 68, 68, 0.5) ), url('../images/contact.jpg');
 
 	background-size: cover;
-}
+}*/
 
 .nav-item {
 
@@ -84,7 +84,7 @@ main{
 }
 .contp > i {
 
-	color: #F97920;
+	color: #6781E0;
 	font-size: 1em;
 	margin-right: 2px
 }
@@ -96,7 +96,7 @@ main{
 i{
 
 	font-size: 2em;
-	color: rgba(171, 175, 181,0.9)
+	color: rgb(26, 26, 255 , 0.7)
 }
 
 
@@ -107,7 +107,7 @@ i{
 
 	height: 90vh;
 	width: 100%;
-	background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url('../images/bg.jpg');
+	background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url('https://images.pexels.com/photos/872957/pexels-photo-872957.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
 	background-size: cover;
 	margin-bottom: 0px;
 
@@ -116,14 +116,14 @@ i{
 .services1{
 
 	height: 70vh;
-	background-color: #333;
+	background-color: white;
 }
 
 
 .media > i{
 
-	font-size: 7em;
-	color: #b46e3c;
+	font-size: 4em;
+	color: rgb(26, 26, 255 , 0.7)
 	margin: 10px 5px;
 }
 .media {
@@ -132,16 +132,16 @@ i{
 
  h5 {
 
-	color: white;
+	color: black;
 }
 
 
 .servicebox{
 
 	height: 160px;
-	width : 31.3%;
-	margin: 30px 1%;
-	/*border: 1px solid black;*/
+	width : 23.33%;
+	margin: 50px 5%;
+	border: 1px solid black;
 	float: left;
 }
 
@@ -152,12 +152,19 @@ i{
 
 
 
-.vertical-center {
-  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
-  min-height: 100vh; /* These two lines are counted as one :-)       */
 
-  display: flex;
-  align-items: center;
+@media only screen and (max-width: 400px) {
+
+
+.servicebox{
+
+	height: 160px;
+	width : 98%;
+	margin: 30px 2%;
+	/*border: 1px solid black;*/
+	float: left;
+}
+
 }
 
 
