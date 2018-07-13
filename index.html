@@ -15,6 +15,9 @@
 	<!-- External CSS -->
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
+
+<!-- Animated CSS -->
+	<link rel="stylesheet" type="text/css" href="assets/css/animated.css">
 	<!-- google fonts -->
 	
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
@@ -28,14 +31,14 @@
 
 
 <main>
-	<nav class="navbar  navbar-expand-lg navbar-dark bg-light">
+	<nav class="navbar  navbar-expand-lg navbar-light">
 
 		<!-- logo title -->
 		<a class="navbar-brand text-light mx-4" href="#">
-		<img src="assets/images/Logo.png" width="110" height="60" class="d-inline-block align-top" alt=""></a>
+		<img src="assets/images/logo.png" width="110" height="60" class="d-inline-block align-top" alt=""></a>
 
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
-			<span class="navbar-toggler-icon"></span>
+			<span class="navbar-light navbar-toggler-icon" id="hamburger"></span>
 		</button>
 						<!-- 	
 						<div class="nav-item ml-auto" id="contdiv"> 
@@ -43,34 +46,65 @@
 							<p class="contp"><i class="far fa-envelope"></i>  4wmasi@gmail.com</p>
 						</div> -->
 
-		<div class="collapse navbar-collapse m" id="navbarNav">
-			<ul class="navbar-nav ml-auto" id="nav-ul">
+		<div class="collapse navbar-collapse " id="navbarNav">
+			<ul class="navbar-nav ml-auto text-center " id="nav-ul">
 				<!-- Home -->
-				<li class="nav-item">
-					<div class="backg">
-						<div class="navback mx-2" id="img1"><a class="nav-item text-dark" href="#">Home <i class="fas fa-home"></i></a></div>
+				<li class="nav-item ">
+					<div class="backg zoom ">
+						<div class="icon">
+							<i class="fas fa-home"></i>
+						</div> 
+						<div class="iconl">
+							<a class="nav-item text-dark" href="#">Home</a>
+						</div>
+
+						
 					</div>
 				</li>
 
 				<!-- About -->
 				<li class="nav-item">
-					<div class="navback mx-2" id="img2"><a class="nav-item text-dark" href="#"> About <i class="far fa-user"></i></a></div>
+					<div class="backg zoom">
+						<div class="icon">
+							<i class="far fa-user"></i>
+						</div>
+						<div class="iconl">
+							<a class="nav-item text-dark" href="#"> About </a>
+						</div>
 				</li>	
 
 				<!-- Works -->
 				<li class="nav-item">
-					<div class="navback mx-2" id="img3"><a class="nav-item text-dark" href="#"> Works <i class="fas fa-laptop"></i></a></div>
+					<div class="backg zoom">
+						<div class="icon">
+							<i class="fas fa-laptop"></i>
+						</div>
+						<div class="iconl">
+							<a class="nav-item text-dark" href="#">Works</a>
+						</div>
 				</li>	
 
 				<!-- Services-->
 				<li class="nav-item">
-					<div class="navback mx-2" id="img4"><a class="nav-item text-dark" href="#"> Services <i class="far fa-star"></i></a></div>
+					<div class="backg zoom">
+						<div class="icon">
+							<i class="fas fa-box-open"></i>
+						</div>
+						<div class="iconl">
+							<a class="nav-item text-dark" href="#">Services</a>
+					</div>
 				</li>
 
 				<!-- Contact-->
 				<li class="nav-item">
-					<div class="navback mx-2" id="img5"><a class="nav-item text-dark" href="#"> Contacts <i class="fas fa-phone"></i> </a>
-					</div>
+					<div class="backg zoom">
+						<div class="icon">
+							<i class="fas fa-phone"></i>
+						</div>
+						<div class="iconl">
+							<a class="nav-item text-dark" href="#">Contacts</a>
+						</div>
+					
 				</li>	
 			</ul>
 		</div>
@@ -83,114 +117,198 @@
 
 
 	<div class="jumbotron text-center bg ">
-  			<h1 class="display-4 text-light">4W Marketing and Advertising Solutions, Inc.</h1>
-            <p class="lead text-light"> One of the best marketing solution.</p>
-            <hr class="my-4">
-            <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+  			<h1 class="display-3 text-light animated slideInDown">4W Marketing and Advertising Solutions, Inc.</h1>
+            <p class="lead text-light"> One of the best marketing solution.</p>         
+            <p class="text-light">It uses utility classes for typography and spacing to space content out within the larger container.</p>
          	<a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
 	</div>
 
 
+
+<!-- Services header page  -->
 	<div class="services1">
-		<div class="servicebox">
-
+		<div class="servicebox zoom">
 			<div class="media">
-  				<i class="far fa-calendar-alt"></i>
-  				<div class="media-body">
-   			 <h5 class="mt-0">Event Concept and Management</h5>
-    			Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Brand and Product Activation</h5>
-    			Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. 
+  				<img src="assets/images/calendar-alt-regular.svg">
+  				<div class="media-body text-left">
+					 <h5>Event Concept and Management</h5>
+					<p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Brand and Product Activation</p>
   				</div>
+			</div>	
+		</div>
 
+		<div class="servicebox zoom">
+			<div class="media">
+  				<img src="assets/images/print-solid.svg">
+  				<div class="media-body text-left">
+	   			 	<h5>Printing and Installation</h5>
+	    			<p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Brand and Product Activation</p>		 
+  				</div>
 			</div>
+		</div>
+
+		<div class="servicebox zoom">
+			<div class="media">
+  				<img src="assets/images/warehouse-solid.svg">
+  				<div class="media-body text-left">
+	   			 	<h5>Brand and Product Activation</h5>
+	    			<p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Brand and Product Activation</p>	
+  				</div>
+			</div>	
+		</div>
+
+		<div class="servicebox zoom">
+			<div class="media">
+  				<img src="assets/images/box-open-solid.svg">
+  				<div class="media-body text-left">
+	   			 	<h5>Bundling</h5>
+	    			<p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Brand and Product Activation</p> 
+	  			</div>
+			</div>
+		</div>
 		
-		</div>
-
-
-
-		<div class="servicebox">
-			
-
+		<div class="servicebox zoom">
 			<div class="media">
-  				<i class="fas fa-print"></i>
-  				<div class="media-body">
-   			 <h5 class="mt-0">Printing and Installation</h5>
-    			Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Brand and Product Activation</h5>
-    			Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. 
-  				</div>
-
+	  			<img src="assets/images/pencil-alt-solid.svg">
+	  			<div class="media-body text-left">
+	   			 	<h5>Creative Design and Concept</h5>
+	    			<p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Brand and Product Activation</p>
+	    		</div>
 			</div>
-
 		</div>
 
 
-		<div class="servicebox">
 
+		<div class="servicebox zoom">
 			<div class="media">
-  				<i class="far fa-calendar-alt"></i>
-  				<div class="media-body">
-   			 <h5 class="mt-0">Brand and Product Activation</h5>
-    			Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Brand and Product Activation</h5>
-    			Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. 
+  				<img src="assets/images/wrench-solid.svg">
+  				<div class="media-body text-left">
+	   			 	<h5>Fabrication</h5>
+	    			<p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Brand and Product Activation</p>
   				</div>
-
 			</div>
-		
 		</div>
-
-
-
-		<div class="servicebox">
-			
-
-			<div class="media">
-  				<i class="fas fa-print"></i>
-  				<div class="media-body">
-   			 <h5 class="mt-0">Bundling</h5>
-    			Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Brand and Product Activation</h5>
-    			Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. 
-  				</div>
-
-			</div>
-
-		</div>
-
-
-		<div class="servicebox">
-
-			<div class="media">
-  				<i class="far fa-calendar-alt"></i>
-  				<div class="media-body">
-   			 <h5 class="mt-0">Creative Design and Concept</h5>
-    			Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Brand and Product Activation</h5>
-    			Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. 
-  				</div>
-
-			</div>
-		
-		</div>
-
-
-
-		<div class="servicebox">
-			
-
-			<div class="media">
-  				<i class="fas fa-print"></i>
-  				<div class="media-body">
-   			 <h5 class="mt-0">Fabrication</h5>
-    			Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Brand and Product Activation</h5>
-    			Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. 
-  				</div>
-
-			</div>
-
-		</div>
-
-
-
 
 	</div>
+
+
+<div class="container aboutpage">
+<hr class="style13">
+		<div class="row">
+			<div class="col-md-12 col-sm-12	">	
+				<div class="jumbortron text-center">	
+					<div><h3 class="display-4">About us </h3></div>
+					<!-- <hr class="style-seven"> -->
+
+				</div>
+				
+			</div>		
+		</div>
+	 <div class="row">
+
+	 	<div class="cell col-md-6 col-12"><img src="assets/images/logo.png"></div>
+	 	<div class="cell col-md-6 col-12 para"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	 	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	 	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	 	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	 	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	 	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.	</p></div>
+
+	 </div>	
+
+
+</div>
+
+
+
+	<div class="container-fluid info">
+
+		<div class="footerinfo text-left">
+			<h3 class="text-light"> About</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud </p>
+			
+		</div>
+
+		<div class="footerinfo text-left">
+			
+			<h3 class="text-light"> Information</h3>
+			<ul class="list-unstyled">
+              <li>
+                <a href="#!">Terms & Conditions of Uses</a>
+              </li>
+              <li>
+                <a href="#!">Privacy Policy</a>
+              </li>
+              <li>
+                <a href="#!">Sate Map</a>
+              </li>
+              <li>
+                <a href="#!">Returns</a>
+              </li>
+            </ul>
+		</div>
+
+
+		<div class="footerinfo text-left">
+			<h3 class="text-light"> Social</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud </p>
+		</div>
+
+		<div class="footerinfo text-left">
+			
+			<h3 class="text-light"> Media</h3>
+			<ul class="list-unstyled ">
+              <li>
+                <a href="#!">Showcase</a>
+              </li>
+              <li>
+                <a href="#!">Print Materials</a>
+              </li>
+              <li>
+                <a href="#!">Packaging</a>
+              </li>
+              <li>
+                <a href="#!">Shipping</a>
+              </li>
+            </ul>
+		</div>
+
+
+
+
+
+
+</div>
+
+
+		<footer class="container-fluid ">
+
+				<div class= "row">
+					<div class="col-md-4 offset-4">	
+							<hr class="style-seven">
+					</div>
+
+					<div class="col-md-10"><small> 2018 Arlandon Developed by Arlandon | All rights reserved.</small>
+					</div>
+					<div class="col-md-2">
+				<span> <img src="assets/images/facebook-f-brands.svg"></span>
+				<span> <img src="assets/images/instagram-brands.svg"></span>
+				<span> <img src="assets/images/twitter-brands.svg"></span>
+				<span> <img src="assets/images/envelope-regular.svg"></span>
+				<span> <img src="assets/images/arrow-up-solid.svg"></span>
+					</div>
+					
+
+				</div>
+				
+
+				
+
+		</footer>
 
 
 </main>

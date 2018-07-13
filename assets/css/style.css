@@ -5,19 +5,69 @@
 	box-sizing: border-box;	
 }
 
+
+
 main{
 
 	height: 100vh;
 }
-
-
-
-.navbar{
-	height: 10vh;
-	padding: 0;
-
+.jumbotron > h1 {
+	padding-top: 100px;
+	padding-bottom: 100px;
 }
 
+#hamburger{
+
+	color: black;
+}
+
+.navbar{
+	background-color: white;
+	height: 10vh;
+	width: 100%;
+	padding: 0;
+	z-index: 9999;
+
+}
+.navbar-brand{
+	padding-bottom: 0;
+}
+
+#nav-ul  li {
+	
+	text-align: center;
+}
+.backg{
+	
+	text-align: center;
+	height: 10vh;
+	width: 	70px;
+/*	border: 1px solid black;*/
+	margin-right: 10px;
+	transition: transform .2s;  /*Animation*/ 
+}
+
+.iconl{
+	height: 50%;
+}
+
+.icon {
+	height: 60%;
+	padding-top:30%; 	
+}
+
+/*.zoom {
+    padding: 50px;
+
+   
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}*/
+
+.zoom:hover {
+    transform: scale(1.3); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
 
 
 #navbarNav{
@@ -82,12 +132,7 @@ main{
 	margin-top: 0px;
 	margin-bottom: 0px;
 }
-.contp > i {
 
-	color: #6781E0;
-	font-size: 1em;
-	margin-right: 2px
-}
 #contdiv{
 
 	padding-top: 40px;
@@ -116,16 +161,18 @@ i{
 .services1{
 
 	height: 70vh;
+	margin-top: 40px;
 	background-color: white;
 }
 
+.media > img{
+	height: 50px;
+	width: 	50px;
+	margin-right: 10px;
+	margin-top: 5px;		
 
-.media > i{
-
-	font-size: 4em;
-	color: rgb(26, 26, 255 , 0.7)
-	margin: 10px 5px;
 }
+
 .media {
 	color: #B9B6B6;
 }
@@ -140,29 +187,200 @@ i{
 
 	height: 160px;
 	width : 23.33%;
-	margin: 50px 5%;
-	border: 1px solid black;
+	margin: 30px 5%;
+/*	border: 2px groove rgb(102, 102, 153, 0.1);*/
 	float: left;
+	padding: 7px;
+	transition: transform .2s;  Animation
 }
 
+.aboutpage{
+
+	height: 50vh;
+}
+
+.cell {
+
+		height: 100%;
+		
+
+}
+
+.cell > img{
+	width: 100%;
+	height: 100%;
+}
 
 .fa-print:hover {
     color: red;
 }
 
+hr.style13 {
+	height: 10px;
+	border: 0;
+	box-shadow: 0 10px 10px -10px #8c8b8b inset;
+}
+
+hr.style-seven {
+    overflow: visible; /* For IE */
+    height: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+
+}
+hr.style-seven:before { /* Not really supposed to work, but does */
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: black;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+}
+
+.style-seven {
+
+	margin-top: 0px
+}
+
+.info{
+	height: 40vh;
+	background-color: /*#0087E2;*/rgb(26, 26, 255 , 0.5);
+	
+}
+
+.footerinfo{
+
+	height: 60%;
+	width : 23%;
+	margin: 50px 1% 0px 1%;	
+	/*border: 2px groove black;*/
+	float: left;
+	
+
+}
+
+
+.list-unstyled  a  {
+	color: 	#212529;
+}
+
+footer {
+	
+	background-color: /*#0087E2;*/rgb(26, 26, 255 , 0.5	);
+	height: 15vh;
+}
+
+.media {
+	/*background-color: red;*/
+	width: 100%;
+	text-align: right;
+}
+footer img{
+	
+	height: 30px;
+	width: 	30px;
+}
+
+/*footer{
+	height: 7vh;
+	margin: 0px 5px;
+	background-color: rgb(26, 26, 255 , 0.85)
+}
+*/
 
 
 
 @media only screen and (max-width: 400px) {
 
 
+
+#nav-ul  li {
+	background-color: 	white;
+	text-align: center;
+}
+.services1{
+
+	height: 100vh;
+	margin-top: 0px;
+	background-color: white;
+}
+
 .servicebox{
 
-	height: 160px;
-	width : 98%;
-	margin: 30px 2%;
+	height: 15.5%;
+	width : 100%;
+	margin: 1% 0%;
 	/*border: 1px solid black;*/
 	float: left;
+}
+
+.media > img{
+	height: 45px;
+	width: 	45px;
+	margin-right: 10px;
+	margin-top: 5px;		
+
+}
+.media-body > h5{
+	font-size: 1em;
+}
+
+.media-body > p{
+	font-size: 1em;
+}
+
+#navbarNav{
+	margin: 0; 	 	
+	height: 100%;
+}
+
+.bg > h1 {
+
+	font-size: 	3em;
+}
+
+
+
+.aboutpage{
+
+	height: 80vh;
+}
+.cell > img {
+
+	height: 100%;
+	width: 	100%;
+}
+
+
+.para{
+	border: 1px solid black;
+	min-height: 200px;
+	width: 	100%;
+}
+
+.jumbotron > h3{
+
+	font-size: 3em;
+}
+
+
+.info{
+	height: 80vh;
+
+	background-color: rgb(26, 26, 255 , 0.8)
+}
+.footerinfo{
+
+	height: 40%;
+	width : 48%;
+	margin: 25px 1% 0px 1%;	
+	/*border: 2px groove black;*/
+	float: left;	
+
 }
 
 }
