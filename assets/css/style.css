@@ -5,16 +5,49 @@
 	box-sizing: border-box;	
 }
 
+/*main*/
 
-
-main{
+.bg {
 
 	height: 100vh;
+	width: 100%;
+	background: linear-gradient(rgba(0, 0, 255, 0.34), rgba(0, 0, 255, 0.35) ), url('https://images.pexels.com/photos/872957/pexels-photo-872957.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+	background-size: cover;
+	margin-bottom: 0px;
+	padding-top: 0px;
+
 }
-.jumbotron > h1 {
-	padding-top: 100px;
-	padding-bottom: 100px;
+
+.containerh1{
+
+	height: 45%;
+	/*border:1px solid black;*/
 }
+
+.containerh2{
+
+	height: 40%;
+}
+
+
+.containerh1 > h1 {
+	padding-top: 5%;
+	font-size: 5em;
+
+}
+
+.containerh2 > p {
+	padding-top: 2%;
+	font-size: 1.3em;
+
+}
+
+.icon > img{
+	height: 100%;
+	width: 100%;
+}
+
+
 
 #hamburger{
 
@@ -22,10 +55,13 @@ main{
 }
 
 .navbar{
+
+	
 	background-color: white;
 	height: 10vh;
 	width: 100%;
-	padding: 0;
+	margin-right: 5%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	z-index: 9999;
 
 }
@@ -50,6 +86,7 @@ main{
 
 .iconl{
 	height: 50%;
+	font-size: 0.9em;
 }
 
 .icon {
@@ -146,30 +183,11 @@ main{
 	padding-top: 40px;
 }
 
-i{
-
-	font-size: 2em;
-	color: rgb(26, 26, 255 , 0.7)
-}
-
-
-
-/*main*/
-
-.bg {
-
-	height: 90vh;
-	width: 100%;
-	background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url('https://images.pexels.com/photos/872957/pexels-photo-872957.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
-	background-size: cover;
-	margin-bottom: 0px;
-
-}
 
 .services1{
 
 	height: 70vh;
-	margin-top: 40px;
+	margin-top: 5%;
 	background-color: white;
 }
 
@@ -204,7 +222,18 @@ i{
 
 .aboutpage{
 
-	height: 50vh;
+	height: 60vh;
+	/*border: 1px solid black;*/
+	margin-top: -40px;
+
+	background-color: white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
+	z-index: 99999;
+}
+
+.aboutpage:hover {
+   
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 255, .5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
 }
 
 .cell {
@@ -215,10 +244,23 @@ i{
 		
 
 }
+.about{
+	height: 20%;
+	padding-top: 5%;
+	margin-bottom: 2%;
+}
+
+.aboutrow{
+	padding-top: 2%;
+	height: 70%;
+
+	
+}
 
 .cell > img{
-	width: 65%;
+	width: 100%;
 	height: 100%;
+	
 
 }
 
@@ -258,8 +300,8 @@ hr.style-seven:before { /* Not really supposed to work, but does */
 }
 
 .info{
-	height: 40vh;
-	background-color: /*#0087E2;*/rgb(26, 26, 255 , 0.5);
+	height: 200px;
+	background-color: /*#0087E2;*/rgb(0, 0, 255 , 0.6);
 	
 }
 
@@ -267,8 +309,8 @@ hr.style-seven:before { /* Not really supposed to work, but does */
 
 	height: 60%;
 	width : 23%;
-	margin: 50px 1% 0px 1%;	
-	/*border: 2px groove black;*/
+	margin: 25px 1% 0px 1%;	
+	/*border: 2px solid black;*/
 	float: left;
 	
 
@@ -281,14 +323,20 @@ hr.style-seven:before { /* Not really supposed to work, but does */
 
 footer {
 	
-	background-color: /*#0087E2;*/rgb(26, 26, 255 , 0.5	);
-	height: 15vh;
+	background-color: /*#0087E2;*/rgba(0, 0, 255, 0.7);
+	height: 100px;
 }
 
 .media {
 	/*background-color: red;*/
 	width: 100%;
-	text-align: right;
+	text-align: left;
+}
+
+.sociallogo{
+
+ 	padding-top:50px;
+ 	
 }
 footer img{
 	
@@ -303,9 +351,44 @@ footer img{
 }
 */
 
+.clear:after{
+	content: " ";
+	clear: both;
+	display: block;	
+}
 
 
 @media only screen and (max-width: 400px) {
+
+
+.bg {
+
+	height: 100vh;
+	width: 100%;
+	background: linear-gradient(rgba(0, 0, 255, 0.34), rgba(0, 0, 255, 0.35) ), url('https://images.pexels.com/photos/872957/pexels-photo-872957.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+	background-size: cover;
+	margin-bottom: 0px;
+	padding-top: 0px;
+
+}
+
+.containerh1{
+
+	height: 45%;
+	/*border:1px solid black;*/
+}
+
+.containerh2{
+
+	height: 40%;
+}
+
+
+.containerh1 > h1 {
+	padding-top: 5%;
+	font-size: 3em;
+
+}
 
 
 
@@ -313,10 +396,62 @@ footer img{
 	background-color: 	white;
 	text-align: center;
 }
+
+
+
+/*about mobile*/
+
+.aboutpage{
+
+	height: 100vh;
+	/*border: 1px solid red;*/
+	margin: 0px;
+
+	background-color: white;
+	
+}
+
+.about{
+	height: 20%;
+	padding-top: 0%;
+	margin-bottom: 0%;
+
+}
+
+.aboutrow{
+	padding-top: 0%;
+	height: 50%;
+	/*border: 1px solid black;*/
+	
+}
+
+.cell {
+
+		height: 60%;
+		width: 100%;
+		/*border: 1px solid black;*/
+		
+
+}
+.para{
+	text-align: center;
+	padding-top: 30px;
+}
+
+
+.cell > img{
+	width: 6%;
+	height: 6%;
+	
+
+}
+
+
+
 .services1{
 
 	height: 100vh;
-	margin-top: 0px;
+	margin-top: 10px;
 	background-color: white;
 }
 
@@ -355,11 +490,6 @@ footer img{
 }
 
 
-
-.aboutpage{
-
-	height: 80vh;
-}
 .cell > img {
 
 	height: 100%;
@@ -367,11 +497,6 @@ footer img{
 }
 
 
-.para{
-	border: 1px solid black;
-	min-height: 200px;
-	width: 	100%;
-}
 
 .jumbotron > h3{
 
@@ -394,7 +519,26 @@ footer img{
 
 }
 
+
+
+
+
+.sociallogo {
+
+ 	padding-top: 0px;
+ 	
+ 	
 }
+
+.zoom:hover {
+    transform: scale(1.0); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+
+   -moz-box-shadow:    inset 0 0 4px #000000;
+   -webkit-box-shadow: inset 0 0 4px #000000;
+   box-shadow:         inset 0 0 4px #000000;
+}
+
+
 
 
 
