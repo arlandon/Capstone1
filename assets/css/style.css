@@ -5,16 +5,50 @@
 	box-sizing: border-box;	
 }
 
-
-.underline--stars {
-  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/78779/star.svg");
-  background-position: 0 1.06em;
-  background-size: 10px 9px;
-  color: #f2f3f8;
+#back-top {
+	position: fixed;
+	bottom: 30px;
+	margin-left: -150px;
 }
 
-.underline {
-  background-repeat: repeat-x;
+#back-top a {
+	width: 108px;
+	display: block;
+	text-align: center;
+	font: 11px/100% Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #bbb;
+
+	/* transition */
+	-webkit-transition: 1s;
+	-moz-transition: 1s;
+	transition: 1s;
+}
+#back-top a:hover {
+	color: #000;
+}
+
+/* arrow icon (span tag) */
+#back-top span {
+	width: 108px;
+	height: 108px;
+	display: block;
+	margin-bottom: 7px;
+	background: #ddd url(up-arrow.png) no-repeat center center;
+
+	/* rounded corners */
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+
+	/* transition */
+	-webkit-transition: 1s;
+	-moz-transition: 1s;
+	transition: 1s;
+}
+#back-top a:hover span {
+	background-color: #777;
 }
 
 /*main*/
@@ -340,6 +374,7 @@ footer img{
 
 .navbar {
 	background-color: white;
+	z-index: 9999;
 
 }
 .bg {
