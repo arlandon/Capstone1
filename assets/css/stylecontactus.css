@@ -7,6 +7,26 @@
 
 
 /*Navbar*/
+.contacts{
+	border: 0px solid black;
+	height: 100%;
+}
+.contacts > input {
+	width: 100%;
+}
+
+.contactsection{
+	background-color: rgba(46, 92, 191, 0.9);
+}
+
+textarea {
+	width: 100%;
+	height: 150px;
+}
+
+
+
+
 
 .icon > img{
 	height: 100%;
@@ -75,10 +95,30 @@
 
 .containerh1{
 
-	height: 45%;
+	height: 20%;
 	/*border:1px solid black;*/
 }
 
+h1 {
+	
+	font-family: 'Old Standard TT', serif;
+}
+
+
+h2 {
+		font-family: 'EB Garamond', serif;
+		font-size: 	3em;
+		color: rgb(	255, 252, 255);
+}
+
+h3{
+	font-family: 'Old Standard TT', serif;
+}
+
+.contacts > p{
+	font-size: 	2em;
+	font-family: 'Old Standard TT', serif;
+}
 .containerh2{
 
 	height: 40%;
@@ -120,8 +160,8 @@
 
 .aboutpage{
 	height: 60vh;
-	/*border: 1px solid black;*/
-	margin-top: -40px;
+	padding: 0;
+	margin-top: 0px;
 	background-color: white;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
 	z-index: 99999;

@@ -6,6 +6,51 @@
 }
 
 
+* {
+  margin:0;
+  padding:0;
+  font-family:"Helvetica Neue", Helvetica, Sans-serif;
+  word-spacing:-2px;
+}
+
+.foot {
+	position: relative;
+}
+input {
+  display: none;
+}
+
+label {
+  cursor: pointer;
+  display: inline-block;
+  padding: 10px 20px;
+  border: 1px solid;
+  border-radius: 4px;
+  background: #336600;
+  color: #FFF;
+  font-family: arial;
+  -webkit-transition: background-color 0.1s, color 0.1s;
+}
+
+label:hover {
+  background: #33CC00;
+  color: #000;
+}
+
+.test {
+  -webkit-transition: height .3s ease;
+  height: 0;
+  overflow: hidden;
+  width: 100%;
+  background: red;
+  margin-top: 10px;
+}
+
+input:checked + .test {
+  height: 300px;
+}
+
+
 /*Navbar*/
 
 .icon > img{
@@ -72,31 +117,6 @@
 	margin-bottom: 0px;
 	padding-top: 0px;
 }
-
-.containerh1{
-
-	height: 45%;
-	/*border:1px solid black;*/
-}
-
-.containerh2{
-
-	height: 40%;
-}
-
-
-.containerh1 > h1 {
-	padding-top: 5%;
-	font-size: 5em;
-
-}
-
-.containerh2 > p {
-	padding-top: 2%;
-	font-size: 1.3em;
-
-}
-
 .iconl{
 	height: 50%;
 	font-size: 0.9em;
@@ -107,6 +127,30 @@
 	padding-top:30%; 	
 }
 
+
+.containerh1  h1 {
+	padding-top: 5%;
+	padding-bottom: 5%;
+	font-size: 5em;
+
+}
+
+.cell1{
+	background-color: white;
+	border: 1px solid black;	
+	margin-bottom: 10px;	
+}	
+
+.cell1 > h2 {
+	padding-top: 2%;
+	font-size: 4em;
+
+}
+
+.carousel-item > img {
+
+	height: 75vh;
+}
 
 .zoom:hover {
     transform: scale(1.3); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
@@ -119,7 +163,7 @@
 /*About US section */
 
 .aboutpage{
-	height: 60vh;
+	height: 90vh;
 	/*border: 1px solid black;*/
 	margin-top: -40px;
 	background-color: white;
