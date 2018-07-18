@@ -69,6 +69,7 @@
 	width: 100%;
 	background: linear-gradient(rgba(0, 0, 255, 0.34), rgba(0, 0, 255, 0.35) ), url('https://images.pexels.com/photos/872957/pexels-photo-872957.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
 	background-size: cover;
+	background-attachment: fixed;
 	margin-bottom: 0px;
 	padding-top: 0px;
 }
@@ -233,8 +234,38 @@
 	transform: 	translate(-50%, -50%);
 	position: absolute;	
 
+} 
+
+.linya{
+	border:0px solid black;
+	
 }
 
+.why {
+
+	height: 100%;
+	width: 100%;
+	background-color: white;
+	display: block;
+}
+
+
+#loading {
+		height: 150px;
+		width: 	150px;
+		-webkit-animation: rotation 4s infinite linear;
+		margin: 0px;
+}
+
+
+@-webkit-keyframes rotation {
+		from {
+				-webkit-transform: rotate(0deg);
+		}
+		to {
+				-webkit-transform: rotate(359deg);
+		}
+}
 
 
 .coreboxcell {
@@ -245,7 +276,16 @@
 @media only screen and (max-width: 411px) {
 
 
+#loading {
+		height: 100px;
+		width: 	100px;
+		-webkit-animation: rotation 4s infinite linear;
+		margin: 0px;
+}
 
+.linya > h3 {
+	font-size: 1.5em;
+}
 .about{
 
 	height: 90vh;

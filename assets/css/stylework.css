@@ -65,10 +65,11 @@
 /*Cover landing page */
 .bg {
 
-	height: 100vh;
+	height: 100%;
 	width: 100%;
 	background: linear-gradient(rgba(0, 0, 255, 0.34), rgba(0, 0, 255, 0.35) ), url('https://images.pexels.com/photos/872957/pexels-photo-872957.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
 	background-size: cover;
+	background-attachment: fixed;
 	margin-bottom: 0px;
 	padding-top: 0px;
 }
@@ -83,10 +84,11 @@
 }
 
 
-.containerh1  h1 {
+.container  h1 {
 	padding-top: 5%;
 	padding-bottom: 5%;
 	font-size: 5em;
+	color: white;
 
 }
 
@@ -174,15 +176,17 @@
 }
 
 .servicebox{
-	height: 160px;
-	width : 23.33%;
-	margin: 30px 5%;
-/*	border: 2px groove rgb(102, 102, 153, 0.1);*/
-	float: left;
-	padding: 7px;
+	background-color: white;
+	margin-bottom: 10px;
+	padding: 10px;
+	height: 100px;
+	width: 90%;
 	transition: transform .2s;  Animation
 }
 
+.servicebox h5 {
+	font-size: 2em;
+}
 
 
 /*footer*/
@@ -259,7 +263,7 @@ footer img{
 }
 .bg {
 
-	height: 100vh;
+	height: 100%;
 	width: 100%;
 	background: linear-gradient(rgba(0, 0, 255, 0.34), rgba(0, 0, 255, 0.35) ), url('https://images.pexels.com/photos/872957/pexels-photo-872957.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
 	background-size: cover;
@@ -363,11 +367,9 @@ footer img{
 
 .servicebox{
 
-	height: 15.5%;
+	height: 100px;
 	width : 100%;
-	margin: 1% 0%;
-	/*border: 1px solid black;*/
-	float: left;
+
 }
 
 .media > img{
