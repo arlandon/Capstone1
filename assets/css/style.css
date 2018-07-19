@@ -5,6 +5,47 @@
 	box-sizing: border-box;	
 }
 
+/*buttons*/
+.button {
+  border-radius: 4px;
+  background-color: #005CFF;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 1.5em;
+  padding: 10px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
 
 /*Navbar*/
 
@@ -87,8 +128,32 @@
 
 
 .containerh1 > h1 {
-	padding-top: 5%;
+	padding-top: 1%;
 	font-size: 5em;
+        width: 100%;
+        font-size: 100px;
+        margin: 125px auto;
+        text-align: center;
+        color: #fff;
+        text-shadow: 0px 1px 1px #ddd,
+                     0px 2px 1px #d6d6d6,
+                     0px 3px 1px #ccc,
+                     0px 4px 1px #c5c5c5,
+                     0px 5px 1px #c1c1c1,
+                     0px 6px 1px #bbb,
+                     0px 7px 1px #777,
+                     0px 8px 3px rgba(100, 100, 100, 0.2),
+                     0px 9px 5px rgba(100, 100, 100, 0.1),
+                     0px 10px 7px rgba(100, 100, 100, 0.15),
+                     0px 11px 9px rgba(100, 100, 100, 0.2),
+                     0px 12px 11px rgba(100, 100, 100, 0.25),
+                     0px 13px 15px rgba(100, 100, 100, 0.2);
+     transition:all .8s ease-in-out;  
+      -o-transition:all .8s ease-in-out;  
+      -moz-transition:all .8s ease-in-out;  
+      -webkit-transition:all .8s ease-in-out;
+   
+
 
 }
 
@@ -150,6 +215,13 @@
 .cell > img{
 	width: 100%;
 	height: 100%;	
+}
+
+
+.para > h2 {
+	font-size: 5em;
+	font-weight: bold;
+	font-family: 'Open Sans Condensed', sans-serif;
 }
 
 /*Services section page */
@@ -261,7 +333,7 @@ footer img{
 }
 .bg {
 
-	height: 100vh;
+	height: 100%;
 	width: 100%;
 	background: linear-gradient(rgba(0, 0, 255, 0.34), rgba(0, 0, 255, 0.35) ), url('https://images.pexels.com/photos/872957/pexels-photo-872957.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
 	background-size: cover;
@@ -283,7 +355,7 @@ footer img{
 
 
 .containerh1 > h1 {
-	padding-top: 5%;
+	margin-top: 10px;
 	font-size: 3em;
 
 }
@@ -301,7 +373,7 @@ footer img{
 
 .aboutpage{
 
-	height: 100vh;
+	height: 100%;
 	/*border: 1px solid red;*/
 	margin: 0px;
 
@@ -316,17 +388,19 @@ footer img{
 
 }
 
-.aboutrow{
-	padding-top: 0%;
-	height: 50%;
-	/*border: 1px solid black;*/
-	
-}
 
 .cell {
 
 		height: 60%;
 		width: 100%;
+		/*border: 1px solid black;*/
+		
+
+}
+
+.para h2 {
+
+		font-size: 	3em;
 		/*border: 1px solid black;*/
 		
 
