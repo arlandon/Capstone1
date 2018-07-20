@@ -23,7 +23,6 @@
 	background-color: rgba(255,255,255,0.9);
 	height: 10vh;
 	width: 100%;
-	margin-right: 5%;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);	
 }
 
@@ -42,7 +41,6 @@
 	height: 10vh;
 	width: 	70px;
 	/*border: 1px solid black;*/
-	margin-right: 10px;
 	transition: transform .2s;  /*Animation*/ 
 
 }
@@ -51,7 +49,6 @@
 	margin-right: 15px; 	 	
 	height: 100%;
 }
-
 
 
 
@@ -84,7 +81,6 @@
 
 	height: 40%;
 }
-
 
 .containerh1 > h1 {
 	padding-top: 5%;
@@ -121,101 +117,193 @@
 
 .about{
 
-	height: 100%;
+	height: 100vh;
 	width: 100%;
 	background-color: 0;
 }
 
 
 .box{
-	height: 90vh;
+	position: relative; 
+	height: 100%;
+	width: 100%;
 	border: 1px solid red;
-	
+	margin: 0px;
 
 }
 .title {
-	margin-top: 40%;
+/*	position: absolute;
+	top: 25%;
+	left: 50%;
+	transform: translate(-50%, -50%);*/
+	margin-top:0%
+	background-color: black;
+	height: 100vh;
+	
 }
 .colright {
 	height: 25%;
-	border: 1px solid black;
+	/*border: 1px solid black;*/
 
 }
 
 .colrightbot {
 	height: 12.5%;
-	border: 1px solid black;
+	/*	*/
 
 }
 
 .cirle {
-
-	border: 1px solid orange;
+	padding: 0px;
+	height: 100%;
+	width: 	100%;
+	position: relative;
+	/*border: 1px solid orange;*/
 }
 
 .w4 {
-	height: 100px;
-	border: 1px solid blue;
+	height:60%;
+	/*border: 1px solid blue;*/
 }
 
-.bilog {
-	background-color: blue;
-	border-radius: 50%;
-	height: 100%;
-	width: 	100%;
-	position: relative;	
+.the4wsinner{
+	background-color: rgba(255,255,255,0.9);
+	height: 300px;
+	box-shadow: 0 4px 8px 3px rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);	
+
+
 }
-
-.ws {
-	position: relative;	
-}
-
-.bilog > h3 { 
-
+.the4ws{
+	/*border:1px solid black;
 	top: 50%;
 	left: 50%;
 	transform: 	translate(-50%, -50%);
-	position: absolute;	
+	position: absolute;	*/
+	margin: 0px;
+	padding-top: 10%;
+	padding-bottom:10%;
+	width: 100%;
+	height: 100%;
+
 }
 
-.ws > h3 {
+.questions {
+	height: 40%;
+	/*background-color:;*/
+}
+
+.cirle > h2 { 
+
+	top: 30%;
+	left: 50%;
+	transform: 	translate(-50%, -50%);
+	position: absolute;	
+	font-size: 4em;	
+	color: white;
+	text-shadow: 2px 2px 4px #000;
+}
+.ws {
+	height: 25%;
+	border: 1px solid black;
+}
+.ws h3 {
 	
 	width: 100%;
 	font-size: 4em;
-	top: 50%;
+	/*top: 50%;
 	left: 50%;
 	transform: 	translate(-50%, -50%);
-	position: absolute;	
+	position: absolute;	*/
 }
 
-/*who*/
-.who {
+.whosection img {
+	height: 100%;
+	width: 100%;
+
+}
+
+
+.whosection {
 	height: 100%;
 	width: 	100%;
 	background-color: skyblue;
 	display:block;	
 }
 
-.who img{
-
+.questions img{
+	height: 100%;
 	width: 	100%;
 }
 
+.who{
+
+	
+	background: linear-gradient(rgba(255, 255, 255, 0.34), rgba(255, 255, 255, 0.35) ),url(https://images.pexels.com/photos/110854/pexels-photo-110854.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+	background-size: cover;
+	background-position: center;
+	}
+.what{
+
+	
+	background: linear-gradient(rgba(255, 255, 255, 0.34), rgba(255, 255, 255, 0.35) ),url(https://images.pexels.com/photos/212286/pexels-photo-212286.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+	background-size: cover;
+	background-position: center;
+	}
+.why{
+
+	
+	background: linear-gradient(rgba(255, 255, 255, 0.34), rgba(255, 255, 255, 0.35) ),url(	https://images.pexels.com/photos/356043/pexels-photo-356043.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+	background-size: cover;
+	background-position: center;
+	}
+.work{
+
+	
+	background: linear-gradient(rgba(255, 255, 255, 0.34), rgba(255, 255, 255, 0.35) ),url(https://images.pexels.com/photos/326410/pexels-photo-326410.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+	background-size: cover;
+	background-position: center;
+	}
 /*vision*/
 
 .vision {
-	height: 100%;
+	height: 45vh;
 	width: 	100%;
-	background-color: yellow;
+	background-color: rgba(255,255,255,0.9);
 	display:block;	
 }
 
+.visionp {
+
+	font-size: 1.3em;
+}
+
+.visionbg {
+	height: 45vh;
+	width: 100%;
+	background-image: linear-gradient(rgba(255, 255, 255, 0.34), rgba(0, 0, 255, 0.35) ),url(../images/aboutt.jpeg);
+	box-shadow: 4px 4px 8px 5px rgba(0, 0, 0, 0.2), 6px 6px 20px 0 rgba(0, 0, 0, 0.19);	
+	background-position: center;
+	background-size: cover;
+}
+
+
+.offset-md-9 > h4{
+	color: skyblue;
+
+
+}
 .core {
 	height: 100%;
 	width: 	100%;
 	background-color: brown;
 
 }
+
+strong {
+	
+	font-family: 'Arimo', sans-serif;
+}
+
 
 .corebox {
 	height: 130px;
@@ -241,7 +329,7 @@
 	
 }
 
-.why {
+.whysection {
 
 	height: 100%;
 	width: 100%;
@@ -288,7 +376,7 @@
 }
 .about{
 
-	height: 90vh;
+	height: 100%;
 	width: 100%;
 	background-color: white;
 }
@@ -299,7 +387,7 @@ h2 {
 
 .box{
 	border: 1px solid red;
-	height: 500px;
+	height: 100%;
 
 }
 
@@ -316,7 +404,7 @@ h2 {
 }
 
 .cirle {
-
+	height: 100px;
 	border: 1px solid orange;
 }
 
