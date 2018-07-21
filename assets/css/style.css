@@ -5,6 +5,89 @@
 	box-sizing: border-box;	
 }
 
+/*navbar icon*/
+
+a {
+    text-decoration: none !important;
+
+}
+
+.icon {
+	height: 60%;
+}
+
+.iconl{
+	height: 40%;
+	font-size: 0.9em;
+}
+
+.icon > img{
+	height: 40px;
+	width: 100%;
+}
+
+.backg{
+	
+	text-align: center;
+	height: 100%;
+	width: 	70px;
+	padding: 5px;
+	/*border: 1px solid black;*/
+	margin-right: 10px;
+	transition: transform .2s;  /*Animation*/ 
+
+}
+
+/*navbar toggler*/
+
+.navbar-toggler {
+    
+    background-color: #2158f314;
+
+}
+/*Landing Page*/
+.containerh1{
+
+	height: 50%;
+	/*border:1px solid black;*/
+}
+
+.containerh2{
+	margin-top: 3%;
+	height: 50%;
+}
+
+
+/*H1 4w Marketing TITLE*/
+.containerh1 > h1 {
+	padding-top: 1%;
+	font-size: 5em;
+        width: 100%;
+        font-size: 100px;
+        margin: 10px auto;
+        text-align: center;
+        color: #fff;
+        text-shadow: 0px 1px 1px #ddd,
+                     0px 2px 1px #d6d6d6,
+                     0px 3px 1px #ccc,
+                     0px 4px 1px #c5c5c5,
+                     0px 5px 1px #c1c1c1,
+                     0px 6px 1px #bbb,
+                     0px 7px 1px #777,
+                     0px 8px 3px rgba(100, 100, 100, 0.2),
+                     0px 9px 5px rgba(100, 100, 100, 0.1),
+                     0px 10px 7px rgba(100, 100, 100, 0.15),
+                     0px 11px 9px rgba(100, 100, 100, 0.2),
+                     0px 12px 11px rgba(100, 100, 100, 0.25),
+                     0px 13px 15px rgba(100, 100, 100, 0.2);
+     transition:all .8s ease-in-out;  
+      -o-transition:all .8s ease-in-out;  
+      -moz-transition:all .8s ease-in-out;  
+      -webkit-transition:all .8s ease-in-out;
+   
+}
+
+
 /*buttons*/
 .button {
   border-radius: 4px;
@@ -47,12 +130,6 @@
 
 
 
-/*Navbar*/
-
-.icon > img{
-	height: 100%;
-	width: 100%;
-}
 
 #hamburger{
 	color: black;
@@ -62,7 +139,7 @@
 
 .navbar{
 	background-color: rgba(255,255,255,0.9);
-	height: 10vh;
+	
 	width: 100%;
 	margin-right: 5%;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);	
@@ -77,16 +154,7 @@
 	text-align: center;
 }
 
-.backg{
-	
-	text-align: center;
-	height: 10vh;
-	width: 	70px;
-	/*border: 1px solid black;*/
-	margin-right: 10px;
-	transition: transform .2s;  /*Animation*/ 
 
-}
 
 #navbarNav{
 	margin-right: 15px; 	 	
@@ -107,76 +175,31 @@
 .bg {
 
 	height: 100vh;
+	overflow: hidden;
 	width: 100%;
 	background: linear-gradient(rgba(0, 0, 255, 0.34), rgba(0, 0, 255, 0.35) ), url('https://images.pexels.com/photos/872957/pexels-photo-872957.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
 	background-size: cover;
-	  background-attachment: fixed;
+	 background-attachment: fixed;
 	margin-bottom: 0px;
 	padding-top: 0px;
 }
 
-.containerh1{
-
-	height: 45%;
-	/*border:1px solid black;*/
-}
-
-.containerh2{
-
-	height: 40%;
-}
 
 
-.containerh1 > h1 {
-	padding-top: 1%;
-	font-size: 5em;
-        width: 100%;
-        font-size: 100px;
-        margin: 125px auto;
-        text-align: center;
-        color: #fff;
-        text-shadow: 0px 1px 1px #ddd,
-                     0px 2px 1px #d6d6d6,
-                     0px 3px 1px #ccc,
-                     0px 4px 1px #c5c5c5,
-                     0px 5px 1px #c1c1c1,
-                     0px 6px 1px #bbb,
-                     0px 7px 1px #777,
-                     0px 8px 3px rgba(100, 100, 100, 0.2),
-                     0px 9px 5px rgba(100, 100, 100, 0.1),
-                     0px 10px 7px rgba(100, 100, 100, 0.15),
-                     0px 11px 9px rgba(100, 100, 100, 0.2),
-                     0px 12px 11px rgba(100, 100, 100, 0.25),
-                     0px 13px 15px rgba(100, 100, 100, 0.2);
-     transition:all .8s ease-in-out;  
-      -o-transition:all .8s ease-in-out;  
-      -moz-transition:all .8s ease-in-out;  
-      -webkit-transition:all .8s ease-in-out;
-   
 
-
-}
 
 .containerh2 > p {
-	padding-top: 2%;
+
 	font-size: 1.3em;
 
 }
 
-.iconl{
-	height: 50%;
-	font-size: 0.9em;
-}
 
-.icon {
-	height: 60%;
-	padding-top:30%; 	
-}
 
 
 .zoom:hover {
-    transform: scale(1.3); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-
+    transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+   
    -moz-box-shadow:    inset 0 0 4px #000000;
    -webkit-box-shadow: inset 0 0 4px #000000;
    box-shadow:         inset 0 0 4px #000000;
@@ -185,9 +208,10 @@
 /*About US section */
 
 .aboutpage{
-	height: 60vh;
+	height: 100%;
 	/*border: 1px solid black;*/
-	margin-top: -40px;
+	padding-bottom: 20px;
+	margin-top: -35px;
 	background-color: white;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
 	z-index: 99999;
@@ -209,7 +233,7 @@
 }
 .aboutrow{
 	padding-top: 2%;
-	height: 70%;	
+	height: 60%;	
 }
 
 .cell > img{
@@ -240,68 +264,45 @@
 }
 
 .media {
-	color: #B9B6B6;
+	height: 70px;
+	width: 100%;
+	 background-color: white;
+	 border-radius: 10px;
+	 padding: 7px;
+	 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	 transition: transform .2s;  Animation
+	/*color: #B9B6B6;*/
 }
 
 .media-body > h5 {
 	color: black;
 }
 
-.servicebox{
-	height: 160px;
-	width : 23.33%;
-	margin: 30px 5%;
-/*	border: 2px groove rgb(102, 102, 153, 0.1);*/
-	float: left;
-	padding: 7px;
-	transition: transform .2s;  Animation
+.workssection{
+	padding-left: 40px; 
+	padding-right: 40px; 
+	background-color: rgb(0, 0, 255 , 0.25)
 }
-
 
 
 /*footer*/
-.info{
-	height: 200px;
-	background-color: /*#0087E2;*/rgb(0, 0, 255 , 0.6);
-	
+
+.fsocial{
+	background-color: rgba(0,0,255,0.5);
 }
-
-.footerinfo{
-
-	height: 60%;
-	width : 23%;
-	margin: 25px 1% 0px 1%;	
-	/*border: 2px solid black;*/
-	float: left;
-	
-
-}
-
 
 .list-unstyled  a  {
 	color: 	#212529;
 }
 
-footer {
-	/*position: fixed;
-   left: 0;
-   bottom: 0;
-   width: 100%;
-*/
-	
-	background-color: /*#0087E2;*/rgba(0, 0, 255, 0.7);
-	height: 100px;
-}
 
-.media {
-	/*background-color: red;*/
-	width: 100%;
-	text-align: left;
+.slogos{
+	padding-left: 90px;
+	margin-left: 90px;
 }
-
 .sociallogo{
 
- 	padding-top:50px;
+ 	background-color: rgba(0,0,255,0.7);
  	
 }
 footer img{
@@ -324,7 +325,7 @@ footer img{
 /* mobile media !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 
 
-@media only screen and (max-width: 411px) {
+@media only screen and (max-width: 575.98px) {
 
 .navbar {
 	background-color: white;
@@ -339,6 +340,207 @@ footer img{
 	background-size: cover;
 	margin-bottom: 0px;
 	padding-top: 0px;
+
+}
+
+
+.backg{
+	
+	width: 	auto;
+	padding: 5px;
+	margin-right: 10px;
+	transition: transform .2s;  /*Animation*/ 
+
+}
+.containerh1{
+
+	height: 45%;
+	/*border:1px solid black;*/
+}
+
+.containerh2{
+
+	height: 40%;
+}
+
+
+.containerh1 > h1 {
+	margin-top: 10px;
+	font-size: 3em;
+
+}
+
+/*worksection*/
+
+.workssection{
+	padding-left: 5px; 
+	padding-right: 5px; 
+	background-color: rgb(0, 0, 255 , 0.25)
+}
+
+.my-3 {
+	margin-top: 1px!important;
+	text-align: center;
+}
+
+
+.media {
+	padding-right: 50px;
+	padding-left: 50px;		
+
+}
+
+#nav-ul  li {
+	background-color: 	white;
+	text-align: center;
+}
+
+
+
+/*about mobile*/
+
+.aboutpage{
+	height: 700px;
+	/*border: 1px solid black;*/
+	margin-top: 0px;
+	background-color: white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
+	z-index: 99999;
+}
+
+.about{
+	height: 10%;
+	padding-top: 0%;
+	margin-bottom: 0%;
+
+}
+
+
+.cell {
+
+		height: 60%;
+		width: 100%;
+		/*border: 1px solid black;*/
+		
+
+}
+
+.para h2 {
+
+		font-size: 	3em;
+		/*border: 1px solid black;*/
+		
+
+}
+.para{
+	
+	padding-top: 10px;
+}
+
+
+.cell > img{
+	width: 6%;
+	height: 6%;
+	
+
+}
+
+
+
+.services1{
+
+	height: 100vh;
+	margin-top: 10px;
+	background-color: white;
+}
+
+
+
+.media-body > h5{
+	font-size: 1em;
+}
+
+.media-body > p{
+	font-size: 1em;
+}
+
+#navbarNav{
+	margin: 0; 	 	
+	height: 100%;
+}
+
+.bg > h1 {
+
+	font-size: 	3em;
+}
+
+
+.cell > img {
+
+	height: 100%;
+	width: 	100%;
+}
+
+
+
+.jumbotron > h3{
+
+	font-size: 3em;
+}
+
+
+.sociallogo {
+	text-align: center;
+	font-size: 0.95em;
+ 	padding-top: 0px;
+ 	
+ 
+}
+
+.slogos{
+	padding-left: 0px;
+	margin-left: 0px;
+}
+
+.zoom:hover {
+    transform: scale(1.0); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    
+   -moz-box-shadow:    inset 0 0 4px #000000;
+   -webkit-box-shadow: inset 0 0 4px #000000;
+   box-shadow:         inset 0 0 4px #000000;
+}
+
+
+
+}
+
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767px) { 
+
+.navbar {
+	background-color: white;
+	z-index: 9999;
+
+}
+.bg {
+
+	height: 100%;
+	width: 100%;
+	background: linear-gradient(rgba(0, 0, 255, 0.34), rgba(0, 0, 255, 0.35) ), url('https://images.pexels.com/photos/872957/pexels-photo-872957.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+	background-size: cover;
+	margin-bottom: 0px;
+	padding-top: 0px;
+
+}
+
+
+.backg{
+	
+	width: 	auto;
+	padding: 5px;
+	margin-right: 10px;
+	transition: transform .2s;  /*Animation*/ 
 
 }
 
@@ -362,12 +564,10 @@ footer img{
 
 
 
-#nav-ul  li {
-	background-color: 	white;
-	text-align: center;
+
+.clientss{
+	font-size: 2em;
 }
-
-
 
 /*about mobile*/
 
@@ -406,8 +606,8 @@ footer img{
 
 }
 .para{
-	text-align: center;
-	padding-top: 30px;
+	
+	padding-top: 10px;
 }
 
 
@@ -517,4 +717,383 @@ footer img{
 }
 
 
+}
 
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+.navbar {
+	background-color: white;
+	z-index: 9999;
+
+}
+.bg {
+
+	text-align: center;
+	height: 100%;
+	width: 100%;
+	background: linear-gradient(rgba(0, 0, 255, 0.34), rgba(0, 0, 255, 0.35) ), url('https://images.pexels.com/photos/872957/pexels-photo-872957.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+	background-size: cover;
+	margin-bottom: 0px;
+	padding-top: 0px;
+
+}
+
+
+.backg{
+	
+	text-align: center;
+	height: 100%;
+	width: 	100%;
+	padding: 5px;
+	/*border: 1px solid black;*/
+	margin-right: 10px;
+	transition: transform .2s;  /*Animation*/ 
+
+}
+.containerh1{
+
+	height: 50%;
+	/*border:1px solid black;*/
+}
+
+.containerh2{
+
+	height: 50%;
+}
+
+
+.containerh1 >h1 {
+	
+	font-size:5em;
+
+}
+
+.my-3 {
+	margin-top: 0px!important;
+	
+}
+
+
+#nav-ul  li {
+	background-color: 	white;
+	text-align: center;
+}
+
+
+
+/*about mobile*/
+
+.aboutpage{
+
+	height: 100%;
+	/*border: 1px solid red;*/
+	margin-right: auto;
+	margin-left: auto;
+
+	background-color: white;
+	
+}
+
+.about{
+	height: 20%;
+	padding-top: 0%;
+	margin-bottom: 0%;
+
+}
+
+
+.cell {
+
+		height: 60%;
+		width: 100%;
+		/*border: 1px solid black;*/
+		
+
+}
+
+.para h2 {
+
+		font-size: 	3em;
+		/*border: 1px solid black;*/
+		
+
+}
+.para{
+	
+	padding-top: 10px;
+}
+
+
+.cell > img{
+	width: 6%;
+	height: 6%;
+	
+
+}
+
+
+
+.media > img{
+	height: 45px;
+	width: 	45px;
+	margin-right: 10px;
+	margin-top: 5px;		
+
+}
+.media-body > h5{
+	font-size: 1em;
+}
+
+.media-body > p{
+	font-size: 1em;
+}
+
+#navbarNav{
+	margin: 0; 	 	
+	height: 100%;
+}
+
+.bg > h1 {
+
+	font-size: 	3em;
+}
+
+
+.cell > img {
+
+	height: 100%;
+	width: 	100%;
+}
+
+
+
+.jumbotron > h3{
+
+	font-size: 3em;
+}
+
+
+
+
+
+.sociallogo {
+	font-size: 1em;
+ 	padding-top: 0px;
+ 	
+ 	
+}
+
+.slogos{
+	padding-left: 0px;
+	margin-left: 0px;
+}
+
+.zoom:hover {
+    transform: scale(1.0); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+
+   -moz-box-shadow:    inset 0 0 4px #000000;
+   -webkit-box-shadow: inset 0 0 4px #000000;
+   box-shadow:         inset 0 0 4px #000000;
+}
+
+#hamburger{
+
+	color: black;
+}
+
+
+}
+
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+
+.navbar {
+	background-color: white;
+	z-index: 9999;
+
+}
+.bg {
+
+	height: 100%;
+	width: 100%;
+	background: linear-gradient(rgba(0, 0, 255, 0.34), rgba(0, 0, 255, 0.35) ), url('https://images.pexels.com/photos/872957/pexels-photo-872957.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+	background-size: cover;
+	margin-bottom: 0px;
+	padding-top: 0px;
+
+}
+
+.containerh1{
+
+	height: 50%;
+	/*border:1px solid black;*/
+}
+
+.containerh2{
+
+	height: 50%;
+}
+
+
+.containerh1 >h1 {
+	
+	font-size:6em;
+
+}
+
+
+.my-3 {
+	margin-top: 0px!important;
+	
+}
+
+
+
+#nav-ul  li {
+	background-color: 	white;
+	text-align: center;
+}
+
+
+
+/*about mobile*/
+
+.aboutpage{
+
+	height: 100%;
+	margin-right: auto;
+	margin-left: auto;
+
+	background-color: white;
+	
+}
+
+.about{
+	height: 20%;
+	padding-top: 0%;
+	margin-bottom: 0%;
+
+}
+
+
+.cell {
+
+		height: 60%;
+		width: 100%;
+		/*border: 1px solid black;*/
+		
+
+}
+
+.para h2 {
+
+		font-size: 	3em;
+		/*border: 1px solid black;*/
+		
+
+}
+.para{
+	
+	padding-top: 10px;
+}
+
+
+.cell > img{
+	width: 6%;
+	height: 6%;
+	
+
+}
+
+
+
+.services1{
+
+	height: 100vh;
+	margin-top: 10px;
+	background-color: white;
+}
+
+.servicebox{
+
+	height: 15.5%;
+	width : 100%;
+	margin: 1% 0%;
+	/*border: 1px solid black;*/
+	float: left;
+}
+
+.media > img{
+	height: 45px;
+	width: 	45px;
+	margin-right: 10px;
+	margin-top: 5px;		
+
+}
+.media-body > h5{
+	font-size: 1em;
+}
+
+.media-body > p{
+	font-size: 1em;
+}
+
+#navbarNav{
+	margin: 0; 	 	
+	height: 100%;
+}
+
+.bg > h1 {
+
+	font-size: 	3em;
+}
+
+
+.cell > img {
+
+	height: 100%;
+	width: 	100%;
+}
+
+
+
+.jumbotron > h3{
+
+	font-size: 3em;
+}
+
+
+
+
+
+.sociallogo {
+	
+	font-size: 1.1em;
+ 	padding-top: 0px;
+ 	
+}
+
+.slogos{
+	padding-left: 0px;
+	margin-left: 10px;
+}
+
+.zoom:hover {
+    transform: scale(1.0); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+
+   -moz-box-shadow:    inset 0 0 4px #000000;
+   -webkit-box-shadow: inset 0 0 4px #000000;
+   box-shadow:         inset 0 0 4px #000000;
+}
+
+#hamburger{
+
+	color: black;
+}
+
+
+ }

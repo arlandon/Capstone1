@@ -5,18 +5,57 @@
 	box-sizing: border-box;	
 }
 
+/*navbar icon*/
 
-/*Navbar*/
-.contacts{
-	border: 0px solid black;
-	height: 100%;
+a {
+    text-decoration: none !important;
 }
+
+.icon {
+	height: 60%;
+}
+
+.iconl{
+	height: 20%;
+	font-size: 0.9em;
+}
+
+.icon > img{
+	height: 40px;
+	width: 100%;
+}
+
+.backg{
+	
+	text-align: center;
+	height: 100%;
+	width: 	70px;
+	padding: 5px;
+	/*border: 1px solid black;*/
+	margin-right: 10px;
+	transition: transform .2s;  /*Animation*/ 
+
+}
+
+/*navbar toggler*/
+
+.navbar-toggler {
+    
+    background-color: #2158f314;
+
+}
+
 .contacts > input {
 	width: 100%;
 }
 
 .contactsection{
+	height: 80%;
 	background-color: rgba(46, 92, 191, 0.9);
+}
+
+.rheight{
+	height: 100%;
 }
 
 textarea {
@@ -28,10 +67,7 @@ textarea {
 
 
 
-.icon > img{
-	height: 100%;
-	width: 100%;
-}
+
 
 #hamburger{
 	color: black;
@@ -41,7 +77,6 @@ textarea {
 
 .navbar{
 	background-color: rgba(255,255,255,0.9);
-	height: 10vh;
 	width: 100%;
 	margin-right: 5%;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);	
@@ -56,16 +91,7 @@ textarea {
 	text-align: center;
 }
 
-.backg{
-	
-	text-align: center;
-	height: 10vh;
-	width: 	70px;
-	/*border: 1px solid black;*/
-	margin-right: 10px;
-	transition: transform .2s;  /*Animation*/ 
 
-}
 
 #navbarNav{
 	margin-right: 15px; 	 	
@@ -101,7 +127,7 @@ textarea {
 }
 
 h1 {
-	
+	overflow: hidden;
 	font-family: 'Old Standard TT', serif;
 }
 
@@ -127,7 +153,7 @@ h3{
 
 
 .containerh1 > h1 {
-	padding-top: 5%;
+	padding-top: 15px;
 	font-size: 5em;
 
 }
@@ -138,15 +164,7 @@ h3{
 
 }
 
-.iconl{
-	height: 50%;
-	font-size: 0.9em;
-}
 
-.icon {
-	height: 60%;
-	padding-top:30%; 	
-}
 
 
 .zoom:hover {
@@ -477,10 +495,35 @@ footer img{
    box-shadow:         inset 0 0 4px #000000;
 }
 
-#hamburger{
 
-	color: black;
+
+
+/*// Extra small devices (portrait phones, less than 576px)*/
+@media only screen and (max-width: 575.98px) {
+
+.navbar {
+	background-color: white;
+	z-index: 9999;
+
+}
+.bg {
+
+	height: 100%;
+	width: 100%;
+	background: linear-gradient(rgba(0, 0, 255, 0.34), rgba(0, 0, 255, 0.35) ), url('https://images.pexels.com/photos/872957/pexels-photo-872957.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+	background-size: cover;
+	margin-bottom: 0px;
+	padding-top: 0px;
+
 }
 
 
+.backg{
+	
+	width: 	auto;
+	padding: 5px;
+	margin-right: 10px;
+	transition: transform .2s;  /*Animation*/ 
 
+}
+}

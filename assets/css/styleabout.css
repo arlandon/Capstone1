@@ -6,22 +6,49 @@
 }
 
 
-/*Navbar*/
+/*navbar icon*/
+a {
+    text-decoration: none !important;
+}
+
+.icon {
+	height: 60%;
+}
+
+.iconl{
+	height: 20%;
+	font-size: 0.9em;
+}
 
 .icon > img{
-	height: 100%;
+	height: 40px;
 	width: 100%;
 }
 
-#hamburger{
-	color: black;
-	z-index: 99999;
+.backg{
+	
+	text-align: center;
+	height: 100%;
+	width: 	70px;
+	padding: 5px;
+	/*border: 1px solid black;*/
+	margin-right: 10px;
+	transition: transform .2s;  /*Animation*/ 
+
+}
+
+/*navbar toggler*/
+
+.navbar-toggler {
+    
+    background-color: #2158f314;
+
 }
 
 
 .navbar{
 	background-color: rgba(255,255,255,0.9);
-	height: 10vh;
+	
 	width: 100%;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);	
 }
@@ -35,15 +62,7 @@
 	text-align: center;
 }
 
-.backg{
-	
-	text-align: center;
-	height: 10vh;
-	width: 	70px;
-	/*border: 1px solid black;*/
-	transition: transform .2s;  /*Animation*/ 
 
-}
 
 #navbarNav{
 	margin-right: 15px; 	 	
@@ -92,16 +111,6 @@
 	padding-top: 2%;
 	font-size: 1.3em;
 
-}
-
-.iconl{
-	height: 50%;
-	font-size: 0.9em;
-}
-
-.icon {
-	height: 60%;
-	padding-top:30%; 	
 }
 
 
@@ -361,8 +370,36 @@ strong {
 
 	
 }
-@media only screen and (max-width: 411px) {
 
+/*Mobile VIEW*/
+@media only screen and (max-width: 575.98px) {
+
+
+.navbar {
+	background-color: white;
+	z-index: 9999;
+
+}
+
+.bg {
+
+	height: 100%;
+	width: 100%;
+	background: linear-gradient(rgba(0, 0, 255, 0.34), rgba(0, 0, 255, 0.35) ), url('https://images.pexels.com/photos/872957/pexels-photo-872957.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+	background-size: cover;
+	margin-bottom: 0px;
+	padding-top: 0px;
+
+}
+
+.backg{
+	
+	width: 	auto;
+	padding: 5px;
+	margin-right: 10px;
+	transition: transform .2s;  /*Animation*/ 
+
+}
 
 #loading {
 		height: 100px;
@@ -413,16 +450,7 @@ h2 {
 	border: 1px solid blue;
 }
 
-.bg {
-
-	height: 100%;
-	width: 100%;
-	background: linear-gradient(rgba(0, 0, 255, 0.34), rgba(0, 0, 255, 0.35) ), url('https://images.pexels.com/photos/872957/pexels-photo-872957.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
-	background-size: cover;
-	margin-bottom: 0px;
-	padding-top: 0px;
-
-}	
+	
 
 .ws > h3 {
 	
