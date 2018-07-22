@@ -81,13 +81,14 @@ a {
 /*Cover landing page */
 .bg {
 
-	height: 100vh;
+	height: 100%;
 	width: 100%;
 	background: linear-gradient(rgba(0, 0, 255, 0.34), rgba(0, 0, 255, 0.35) ), url('https://images.pexels.com/photos/872957/pexels-photo-872957.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
 	background-size: cover;
 	background-attachment: fixed;
 	margin-bottom: 0px;
 	padding-top: 0px;
+	padding-bottom: 0px;
 }
 
 .containerh1{
@@ -126,7 +127,7 @@ a {
 
 .about{
 
-	height: 100vh;
+	height: 100%;
 	width: 100%;
 	background-color: 0;
 }
@@ -136,8 +137,10 @@ a {
 	position: relative; 
 	height: 100%;
 	width: 100%;
-	border: 1px solid red;
+	/*border: 1px solid red;*/
 	margin: 0px;
+	padding-top: 20px;
+	
 
 }
 .title {
@@ -171,8 +174,14 @@ a {
 }
 
 .w4 {
+	/*background-color: pink;*/
 	height:60%;
-	/*border: 1px solid blue;*/
+	;
+	background-image: url(../images/4w-BG.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	
 }
 
 .the4wsinner{
@@ -213,12 +222,12 @@ a {
 }
 .ws {
 	height: 25%;
-	border: 1px solid black;
+	/*border: 1px solid black;*/
 }
 .ws h3 {
 	
 	width: 100%;
-	font-size: 4em;
+	font-size: 3em;
 	/*top: 50%;
 	left: 50%;
 	transform: 	translate(-50%, -50%);
@@ -226,17 +235,18 @@ a {
 }
 
 .whosection img {
-	height: 100%;
+	height: 70%;
 	width: 100%;
 
 }
 
 
 .whosection {
+	/*border: 4px solid red;*/
+	padding-top: 20px;
 	height: 100%;
 	width: 	100%;
-	background-color: skyblue;
-	display:block;	
+	box-shadow: 0 4px 8px 5px rgba(0, 0, 0, 0.4), 0 6px 20px 5px rgba(0, 0, 0, 0.4);	
 }
 
 .questions img{
@@ -275,7 +285,7 @@ a {
 /*vision*/
 
 .vision {
-	height: 45vh;
+	height: 100%;
 	width: 	100%;
 	background-color: rgba(255,255,255,0.9);
 	display:block;	
@@ -287,25 +297,33 @@ a {
 }
 
 .visionbg {
-	height: 45vh;
+	height: 50vh;
 	width: 100%;
 	background-image: linear-gradient(rgba(255, 255, 255, 0.34), rgba(0, 0, 255, 0.35) ),url(../images/aboutt.jpeg);
-	box-shadow: 4px 4px 8px 5px rgba(0, 0, 0, 0.2), 6px 6px 20px 0 rgba(0, 0, 0, 0.19);	
-	background-position: center;
+	box-shadow: 4px 4px 8px 5px rgba(0, 0, 0, 0.1), 6px 6px 20px 0 rgba(0, 0, 0, 0.19);	
+	background-position: 50% 20%;
 	background-size: cover;
+
 }
 
 
-.offset-md-9 > h4{
-	color: skyblue;
+.offset-md-5 > h4{
+	color: rgba(0,0,255,0.9);
+	font-size: 2em;
 
 
 }
 .core {
 	height: 100%;
 	width: 	100%;
-	background-color: brown;
+	padding-top: 50px;
+ 	background-color: rgba(0,0,255,0.5);
 
+}
+
+.core p {
+	color: white;
+	padding-top: 10px; 	
 }
 
 strong {
@@ -313,12 +331,20 @@ strong {
 	font-family: 'Arimo', sans-serif;
 }
 
+.linya span{
+	background-color: rgba(0,0,255,0.7);
+	color: white;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
 
 .corebox {
 	height: 130px;
 	width: 	200px;
 	border-radius: 14%;
-	background-color: yellow;
+	background-color: white;
+	box-shadow: 6px 6px 6px 6px rgba(0, 0, 0, 0.1), 6px 6px 6px 6px rgba(0, 0, 0, 0.19);
 	margin: 0 auto;
 	position: relative;	
 
@@ -348,8 +374,8 @@ strong {
 
 
 #loading {
-		height: 150px;
-		width: 	150px;
+		height: 200px;
+		width: 	200px;
 		-webkit-animation: rotation 4s infinite linear;
 		margin: 0px;
 }
@@ -371,107 +397,6 @@ strong {
 	
 }
 
-/*Mobile VIEW*/
-@media only screen and (max-width: 575.98px) {
-
-
-.navbar {
-	background-color: white;
-	z-index: 9999;
-
-}
-
-.bg {
-
-	height: 100%;
-	width: 100%;
-	background: linear-gradient(rgba(0, 0, 255, 0.34), rgba(0, 0, 255, 0.35) ), url('https://images.pexels.com/photos/872957/pexels-photo-872957.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
-	background-size: cover;
-	margin-bottom: 0px;
-	padding-top: 0px;
-
-}
-
-.backg{
-	
-	width: 	auto;
-	padding: 5px;
-	margin-right: 10px;
-	transition: transform .2s;  /*Animation*/ 
-
-}
-
-#loading {
-		height: 100px;
-		width: 	100px;
-		-webkit-animation: rotation 4s infinite linear;
-		margin: 0px;
-}
-
-.linya > h3 {
-	font-size: 1.5em;
-}
-.about{
-
-	height: 100%;
-	width: 100%;
-	background-color: white;
-}
-
-h2 {
-	font-size: 	4em;
-}
-
-.box{
-	border: 1px solid red;
-	height: 100%;
-
-}
-
-.colright {
-	height: 25%;
-	border: 1px solid black;
-
-}
-
-.colrightbot {
-	height: 12.5%;
-	border: 1px solid black;
-
-}
-
-.cirle {
-	height: 100px;
-	border: 1px solid orange;
-}
-
-.w4 {
-	height: 100px;
-	border: 1px solid blue;
-}
-
-	
-
-.ws > h3 {
-	
-	width: 100%;
-	font-size: 2em;
-	top: 50%;
-	left: 50%;
-	transform: 	translate(-50%, -50%);
-	position: absolute;	
-}
-
-	}
-
-
-
-
-
-
-
-
-
 .servicebox{
 	height: 160px;
 	width : 23.33%;
@@ -485,48 +410,23 @@ h2 {
 
 
 /*footer*/
-.info{
-	height: 200px;
-	background-color: /*#0087E2;*/rgb(0, 0, 255 , 0.6);
-	
+
+.fsocial{
+	background-color: rgba(0,0,255,0.5);
 }
-
-.footerinfo{
-
-	height: 60%;
-	width : 23%;
-	margin: 25px 1% 0px 1%;	
-	/*border: 2px solid black;*/
-	float: left;
-	
-
-}
-
 
 .list-unstyled  a  {
 	color: 	#212529;
 }
 
-footer {
-	/*position: fixed;
-   left: 0;
-   bottom: 0;
-   width: 100%;
-*/
-	
-	background-color: /*#0087E2;*/rgba(0, 0, 255, 0.7);
-	height: 100px;
-}
 
-.media {
-	/*background-color: red;*/
-	width: 100%;
-	text-align: left;
+.slogos{
+	padding-left: 90px;
+	margin-left: 90px;
 }
-
 .sociallogo{
 
- 	padding-top:50px;
+ 	background-color: rgba(0,0,255,0.7);
  	
 }
 footer img{
@@ -546,189 +446,273 @@ footer img{
 
 
 
-/* mobile media !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 
+/*Mobile VIEW*/
+@media only screen and (max-width: 575.98px) {
 
-@media only screen and (max-width: 411px) {
-
-.navbar {
-	background-color: white;
-	z-index: 9999;
-
+.backg{
+	width: 	auto;
 }
 
-
-.containerh1{
-
-	height: 45%;
-	/*border:1px solid black;*/
-}
-
-.containerh2{
-
-	height: 40%;
-}
-
-
-.containerh1 > h1 {
-	padding-top: 5%;
+/*About us font size*/
+.vision h1{
 	font-size: 3em;
+}
 
+/*4w of 4w*/
+
+.the4wsinner{
+	background-color: rgba(255,255,255,0.9);
+	height: 160px;
+	box-shadow: 0 4px 8px 3px rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.the4wsinner h2{
+	font-size: 2em;
+}
+
+.the4wsinner img{
+	height: 100px;
 }
 
 
+/*shake hands content*/
 
-#nav-ul  li {
-	background-color: 	white;
-	text-align: center;
+.whosection h2 {
+	font-size: 2em;
 }
 
-
-
-/*about mobile*/
-
-.aboutpage{
-
-	height: 100vh;
-	/*border: 1px solid red;*/
-	margin: 0px;
-
-	background-color: white;
-	
-}
-
-.about{
-	height: 20%;
-	padding-top: 0%;
-	margin-bottom: 0%;
-
-}
-
-.aboutrow{
-	padding-top: 0%;
+.whosection img {
 	height: 50%;
-	/*border: 1px solid black;*/
-	
+}
+.pt-5 {
+	padding-top: 0px!important;
 }
 
-.cell {
 
-		height: 60%;
-		width: 100%;
-		/*border: 1px solid black;*/
+#loading {
+		height: 110px;
+		width: 	110px;
 		
-
 }
-.para{
-	text-align: center;
-	padding-top: 30px;
-}
+/*corebox*/
 
-
-.cell > img{
-	width: 6%;
-	height: 6%;
-	
-
-}
-
-
-
-.services1{
-
-	height: 100vh;
-	margin-top: 10px;
+.corebox {
+	height: 80px;
+	width:  100%;
+	border-radius: 14%;
 	background-color: white;
-}
+	box-shadow: 6px 6px 6px 6px rgba(0, 0, 0, 0.1), 6px 6px 6px 6px rgba(0, 0, 0, 0.19);
+	margin: 0 auto;
+	position: relative;	
 
-.servicebox{
-
-	height: 15.5%;
-	width : 100%;
-	margin: 1% 0%;
-	/*border: 1px solid black;*/
-	float: left;
-}
-
-.media > img{
-	height: 45px;
-	width: 	45px;
-	margin-right: 10px;
-	margin-top: 5px;		
 
 }
-.media-body > h5{
+
+.corebox h4{
 	font-size: 1em;
 }
 
-.media-body > p{
+.core p {
+	font-size: 0.7em;
+}
+
+/*fontsize we are here to work*/
+
+.display-4{
+	font-size: 2em;
+}
+
+.display-3 {
+	font-size: 3em;
+}
+.linya > h3 {
+	font-size: 1.4em;
+}
+
+.linya span{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.slogos{
+
+	
+	padding-left: 0px;
+	margin-left: 0px;
+}
+
+
+	}
+
+
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767px) { 
+
+.backg{
+	width: 	auto;
+}
+
+/*About us font size*/
+.vision h1{
+	font-size: 3em;
+}
+
+/*4w of 4w*/
+
+.the4wsinner{
+	background-color: rgba(255,255,255,0.9);
+	height: 160px;
+	box-shadow: 0 4px 8px 3px rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.the4wsinner h2{
+	font-size: 2em;
+}
+
+.the4wsinner img{
+	height: 100px;
+}
+
+
+/*shake hands content*/
+
+.whosection h2 {
+	font-size: 2em;
+}
+
+.whosection img {
+	height: 50%;
+}
+.pt-5 {
+	padding-top: 0px!important;
+}
+
+
+#loading {
+		height: 110px;
+		width: 	110px;
+		
+}
+/*corebox*/
+
+.corebox {
+	height: 80px;
+	width:  100%;
+	border-radius: 14%;
+	background-color: white;
+	box-shadow: 6px 6px 6px 6px rgba(0, 0, 0, 0.1), 6px 6px 6px 6px rgba(0, 0, 0, 0.19);
+	margin: 0 auto;
+	position: relative;	
+
+
+}
+
+.corebox h4{
 	font-size: 1em;
 }
 
-#navbarNav{
-	margin: 0; 	 	
-	height: 100%;
+.core p {
+	font-size: 0.7em;
 }
 
-.bg > h1 {
+/*fontsize we are here to work*/
 
-	font-size: 	3em;
+.display-4{
+	font-size: 2em;
+}
+
+.display-3 {
+	font-size: 3em;
+}
+.linya > h3 {
+	font-size: 1.4em;
+}
+
+.linya span{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.slogos{
+
+	
+	padding-left: 0px;
+	margin-left: 0px;
 }
 
 
-.cell > img {
+	}
 
-	height: 100%;
-	width: 	100%;
+
+
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+.backg{
+	width: 	auto;
+}
+.the4wsinner h2{
+	font-size: 2em;
+}
+
+.the4wsinner {
+
+    height: 200px;
+    width: 200px;
+
+	}
+
+
+.ws h3 {
+
+	font-size: 2.1em;
 }
 
 
 
-.jumbotron > h3{
+
+.linya span{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#loading {
+		height: 150px;
+		width: 	150px;
+		
+}
+
+.display-3 {
 
 	font-size: 3em;
 }
 
+.display-4 {
 
-.info{
-	height: 80vh;
-
-	background-color: rgb(26, 26, 255 , 0.8)
-}
-.footerinfo{
-
-	height: 40%;
-	width : 48%;
-	margin: 25px 1% 0px 1%;	
-	/*border: 2px groove black;*/
-	float: left;	
-
+	font-size: 2em;
 }
 
+.core p {
 
-
-
-
-.sociallogo {
-	text-align: center;
-	font-size: 0.95em;
- 	padding-top: 0px;
- 	
- 	
+	font-size: 0.8em
 }
 
-.zoom:hover {
-    transform: scale(1.0); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+.slogos {
+     padding-left: 0px; 
+     margin-left: 0px; 
+}
+}
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
 
-   -moz-box-shadow:    inset 0 0 4px #000000;
-   -webkit-box-shadow: inset 0 0 4px #000000;
-   box-shadow:         inset 0 0 4px #000000;
+
+
+.slogos {
+     padding-left: 50px; 
+     margin-left: 0px; 
 }
 
-#hamburger{
-
-	color: black;
 }
-
-
-
