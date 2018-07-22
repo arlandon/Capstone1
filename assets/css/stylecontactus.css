@@ -64,17 +64,6 @@ textarea {
 }
 
 
-
-
-
-
-
-#hamburger{
-	color: black;
-	z-index: 99999;
-}
-
-
 .navbar{
 	background-color: rgba(255,255,255,0.9);
 	width: 100%;
@@ -111,7 +100,7 @@ textarea {
 /*Cover landing page */
 .bg {
 
-	height: 100vh;
+	height: 100%;
 	width: 100%;
 	background: linear-gradient(rgba(0, 0, 255, 0.34), rgba(0, 0, 255, 0.35) ), url('https://images.pexels.com/photos/872957/pexels-photo-872957.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
 	background-size: cover;
@@ -178,7 +167,7 @@ h3{
 /*About US section */
 
 .aboutpage{
-	height: 60vh;
+	height: 100%;
 	padding: 0;
 	margin-top: 0px;
 	background-color: white;
@@ -190,104 +179,25 @@ h3{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 255, .5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
 }
 
-.cell {
-		height: 100%;
-		width: 100%;
-		/*border: 1px solid black;*/
-}
-.about{
-	height: 20%;
-	padding-top: 2%;
-	margin-bottom: 2%;
-}
-.aboutrow{
-	padding-top: 2%;
-	height: 70%;	
-}
-
-.cell > img{
-	width: 100%;
-	height: 100%;	
-}
-
-/*Services section page */
-
-.services1{
-	height: 70vh;
-	margin-top: 5%;
-	background-color: white;
-}
-
-.media > img{
-	height: 50px;
-	width: 	50px;
-	margin-right: 10px;
-	margin-top: 5px;		
-}
-
-.media {
-	color: #B9B6B6;
-}
-
-.media-body > h5 {
-	color: black;
-}
-
-.servicebox{
-	height: 160px;
-	width : 23.33%;
-	margin: 30px 5%;
-/*	border: 2px groove rgb(102, 102, 153, 0.1);*/
-	float: left;
-	padding: 7px;
-	transition: transform .2s;  Animation
-}
-
-
 
 /*footer*/
-.info{
-	height: 200px;
-	background-color: /*#0087E2;*/rgb(0, 0, 255 , 0.6);
-	
+
+.fsocial{
+	background-color: rgba(0,0,255,0.5);
 }
-
-.footerinfo{
-
-	height: 60%;
-	width : 23%;
-	margin: 25px 1% 0px 1%;	
-	/*border: 2px solid black;*/
-	float: left;
-	
-
-}
-
 
 .list-unstyled  a  {
 	color: 	#212529;
 }
 
-footer {
-	/*position: fixed;
-   left: 0;
-   bottom: 0;
-   width: 100%;
-*/
-	
-	background-color: /*#0087E2;*/rgba(0, 0, 255, 0.7);
-	height: 100px;
-}
 
-.media {
-	/*background-color: red;*/
-	width: 100%;
-	text-align: left;
+.slogos{
+	padding-left: 90px;
+	margin-left: 90px;
 }
-
 .sociallogo{
 
- 	padding-top:50px;
+ 	background-color: rgba(0,0,255,0.7);
  	
 }
 footer img{
@@ -307,19 +217,30 @@ footer img{
 
 
 
-/* mobile media !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 
 
-@media only screen and (max-width: 411px) {
+/*// Extra small devices (portrait phones, less than 576px)*/
+@media only screen and (max-width: 575.98px) {
 
 .navbar {
 	background-color: white;
 	z-index: 9999;
 
 }
+
+.backg{
+	
+	width: 	auto;
+	padding: 5px;
+	margin-right: 10px;
+	transition: transform .2s;  /*Animation*/ 
+
+}
+
+
 .bg {
 
-	height: 100vh;
+	height: 100%;
 	width: 100%;
 	background: linear-gradient(rgba(0, 0, 255, 0.34), rgba(0, 0, 255, 0.35) ), url('https://images.pexels.com/photos/872957/pexels-photo-872957.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
 	background-size: cover;
@@ -495,28 +416,23 @@ footer img{
    box-shadow:         inset 0 0 4px #000000;
 }
 
-
-
-
-/*// Extra small devices (portrait phones, less than 576px)*/
-@media only screen and (max-width: 575.98px) {
-
-.navbar {
-	background-color: white;
-	z-index: 9999;
-
 }
+
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767px) { 
+
+/*Cover landing page */
 .bg {
 
 	height: 100%;
 	width: 100%;
 	background: linear-gradient(rgba(0, 0, 255, 0.34), rgba(0, 0, 255, 0.35) ), url('https://images.pexels.com/photos/872957/pexels-photo-872957.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
 	background-size: cover;
+	background-attachment: fixed;
 	margin-bottom: 0px;
 	padding-top: 0px;
-
 }
-
 
 .backg{
 	
@@ -526,4 +442,53 @@ footer img{
 	transition: transform .2s;  /*Animation*/ 
 
 }
+
+}
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+	/*Cover landing page */
+.bg {
+
+	height: 100%;
+	width: 100%;
+	background: linear-gradient(rgba(0, 0, 255, 0.34), rgba(0, 0, 255, 0.35) ), url('https://images.pexels.com/photos/872957/pexels-photo-872957.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+	background-size: cover;
+	background-attachment: fixed;
+	margin-bottom: 0px;
+	padding-top: 0px;
+}
+
+.backg{
+	
+	width: 	auto;
+	padding: 5px;
+	margin-right: 10px;
+	transition: transform .2s;  /*Animation*/ 
+
+}
+
+	}
+
+
+
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+	/*Cover landing page */
+.bg {
+
+	height: 100%;
+	width: 100%;
+	background: linear-gradient(rgba(0, 0, 255, 0.34), rgba(0, 0, 255, 0.35) ), url('https://images.pexels.com/photos/872957/pexels-photo-872957.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+	background-size: cover;
+	background-attachment: fixed;
+	margin-bottom: 0px;
+	padding-top: 0px;
+}
+
+
+
 }
