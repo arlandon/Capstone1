@@ -81,7 +81,7 @@ a {
 
 	height: 100%;
 	width: 100%;
-	background: linear-gradient(rgba(0, 0, 255, 0.34), rgba(0, 0, 255, 0.35) ), url('https://images.pexels.com/photos/872957/pexels-photo-872957.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+	background: linear-gradient(rgba(0, 0, 255, 0.34), rgba(0, 0, 255, 0.35) ), url('https://images.pexels.com/photos/572056/pexels-photo-572056.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
 	background-size: cover;
 	background-attachment: fixed;
 	margin-bottom: 0px;
@@ -239,6 +239,7 @@ font-size: 1.3em;
     text-decoration: none;
     display: inline-block;
     font-size: 1.5em;
+    transition: transform .2s; 
 }
 
 
@@ -252,6 +253,11 @@ font-size: 1.3em;
 	color: 	#212529;
 }
 
+.clients img{
+
+	height: 150px;
+	width: 100%;
+}
 
 .slogos{
 	padding-left: 90px;
@@ -268,7 +274,9 @@ footer img{
 	width: 	30px;
 }
 
-
+.sociallogo a {
+	color: white;
+}
 .clear:after{
 	content: " ";
 	clear: both;
@@ -337,6 +345,7 @@ h6 {
 	padding: 15px 10px;
 	font-size: 0.9em;
 	width: 100%;
+
 
 
 }
@@ -462,6 +471,11 @@ h6 {
  
 }
 
+.clients img{
+
+	height: 100px;
+	width: 100%;
+}
 .slogos{
 	padding-left: 0px;
 	margin-left: 0px;

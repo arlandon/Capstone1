@@ -102,7 +102,7 @@ textarea {
 
 	height: 100%;
 	width: 100%;
-	background: linear-gradient(rgba(0, 0, 255, 0.34), rgba(0, 0, 255, 0.35) ), url('https://images.pexels.com/photos/872957/pexels-photo-872957.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+	background: linear-gradient(rgba(0, 0, 255, 0.34), rgba(0, 0, 255, 0.35) ), url('https://images.pexels.com/photos/1068523/pexels-photo-1068523.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
 	background-size: cover;
 	background-attachment: fixed;
 	margin-bottom: 0px;
@@ -207,6 +207,10 @@ footer img{
 }
 
 
+
+.sociallogo a {
+	color: white;
+}
 .clear:after{
 	content: " ";
 	clear: both;
