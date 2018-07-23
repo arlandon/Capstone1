@@ -263,10 +263,18 @@ footer img{
 
 .containerh1 > h1 {
 	padding-top: 5%;
-	font-size: 3em;
+	font-size:2.5em;
 
 }
 
+.contacts h2 {
+	font-size: 2em;
+}
+
+
+.contacts p {
+	font-size: 1.5em;
+}
 
 
 #nav-ul  li {
@@ -280,7 +288,7 @@ footer img{
 
 .aboutpage{
 
-	height: 100vh;
+	height: 100%;
 	/*border: 1px solid red;*/
 	margin: 0px;
 
